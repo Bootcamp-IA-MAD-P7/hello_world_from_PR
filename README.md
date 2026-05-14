@@ -99,20 +99,30 @@ El sitio abordará los **5 Pilares del Ciclo de Vida del Dato**, cada uno desarr
 ### 1️⃣ Clonar el repositorio base
 
 ```bash
-git clone https://github.com/[nombre-organizacion]/data-journey.git
-cd data-journey
+git clone https://github.com/[nombre-organizacion]/hello_world_from_pr.git
+hello_world_from_pr
 ```
 
-### 2️⃣ Crear una nueva rama por equipo
+### 2️⃣ Crear una tarea general por equipo
 
-Esto lo harán creando la rama a partir de los issues que se creen
+Esto lo harán creando la tarea que les ha tocado
 
-### 3️⃣ Crear o editar su carpeta asignada
+### 3️⃣ Crear subtareas
+
+Dentro de la tarea general deben crear sub-tareas de los subtemas que les ha tocado
+
+### 4️⃣ Crear una rama de la tarea general y de las subtareas
+
+Esto lo harán a partir de los issues(tareas) que han creado en el tablero del projects
+
+### 5️⃣ Crear o editar su carpeta asignada
 
 - Añadir su HTML y CSS dentro de la carpeta correspondiente
 - Mantener coherencia visual con los estilos globales (`globals.css`)
 
-### 4️⃣ Confirmar y subir cambios
+### 6️⃣ Unir lo hecho en las ramas de las subtareas en la rama general de la tarea
+
+Esto lo harán para verificar que funciona correctamente haciendo merge, y luego subiremos los cambios usando:
 
 ```bash
 git add .
@@ -120,7 +130,11 @@ git commit -m "Equipo 2: sección Limpieza & Transformación"
 git push origin feature/limpieza-transformacion
 ```
 
-### 5️⃣ Crear un Pull Request
+### 7️⃣ hacemos merge en la rama develop
+
+Aquí es donde probamos nuestros cambios junto con los de nuestros compañeros en la rama develop
+
+### 8️⃣ Crear un Pull Request
 
 Desde GitHub:
 1. Abrir un PR desde su rama hacia `main`
