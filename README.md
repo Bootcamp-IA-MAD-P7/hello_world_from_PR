@@ -1,4 +1,4 @@
-# 🌐 Proyecto Colaborativo — Historia y Evolución de la Inteligencia Artificial
+# 🌐 Proyecto Colaborativo — Uso y Tratamiento de la información (Datos)
 
 ### Bootcamp Desarrollo Web — Actividad de Colaboración en GitHub
 
