@@ -174,6 +174,7 @@ Una web estática navegable con un acordeón principal (`index.html`) que mostra
 
 ## 📚 Recursos Adicionales
 
+- [Paso a paso para crear un projects y templates](https://github.com/Factoria-F5-madrid/workflows)
 - [Documentación de Git](https://git-scm.com/doc)
 - [GitHub Guides](https://guides.github.com/)
 - [MDN Web Docs - HTML](https://developer.mozilla.org/es/docs/Web/HTML)
