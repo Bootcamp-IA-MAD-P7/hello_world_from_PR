@@ -126,7 +126,7 @@ Esto lo harán para verificar que funciona correctamente haciendo merge, y luego
 
 ```bash
 git add .
-git commit -m "Equipo 2: sección Limpieza & Transformación"
+git commit -m "Equipo 2: sección Limpieza & Transformación #(número del issue)"
 git push origin feature/limpieza-transformacion
 ```
 
